@@ -13,4 +13,4 @@ jobs:
 
     steps:
     - name: Notify deployment
-      run: echo "Deploy to cloud triggered (імітація для Render/Railway)."
+      run: echo "Deploy to cloud triggered (імітація для Railway)."
