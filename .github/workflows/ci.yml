@@ -27,7 +27,7 @@ jobs:
       run: flake8 myapp
 
     - name: Run tests
-      run: pytest
+      run: pytest tests
 
     - name: Build Docker image
       run: docker build -t ghcr.io/${{ github.repository }}:latest .
